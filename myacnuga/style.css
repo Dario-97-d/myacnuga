@@ -1,0 +1,81 @@
+html { display: table; margin: auto; }
+body { background-color: grey; font-family: Arial; }
+body a{ color: #AAA; text-decoration: none; font-weight: bold; }
+input { background-color: #BA8; margin: auto; border: 3px solid #000; }
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0 1000px #CB9 inset !important; }
+select {
+  -webkit-appearance: none;
+  font-weight: bold;
+  width: 150px;
+  text-align-last: center;
+  background-color: #DFBF7F;
+  color: #000;
+  padding: 3px;
+  border: 3px solid #000;
+}
+textarea {
+	font-family: "Lucida Console", monospace;
+	color: #204080;
+	background-color: #CB9;
+	margin: auto;
+	width: 75%;
+	height: 132px;
+	padding: 3px;
+	border: 3px solid #204080;
+}
+
+#textbody {
+	font-family: "Lucida Console", monospace;
+	color: #124;
+	background-color: #CB9;
+	width: 75%;
+	height: 132px;
+	padding: 3px;
+	border: 1px solid #204080;
+}
+
+.button1 { background-color: #000; color: #F7D7B7; padding: 4px; border: 3px solid #AAA; }
+
+.tabler { font-size: 24; color: #A6A6A6; border: 2px solid #7F0000; }
+
+#header { text-align: center; background-color: #555; width: 1024px; height: 64px; }
+#container { overflow: hidden; }
+#menu {
+	background-color: #555;
+	width: 128px;
+	min-height: 896px;
+	float: left;
+	margin-bottom: -32767px;
+	padding-bottom: 32767px;
+}
+#menu_div { padding: 10px; }
+#content {
+	background-color: #DFBF7F;
+	color: #000000;
+	text-align: left;
+	width: 832px;
+	float: left;
+	border-right: 64px solid #555;
+	margin-bottom: -32767px;
+	padding-bottom: 32767px;
+}
+#content_div { padding: 10px; }
+#content a{ color: #000; font-weight: bold; }
+
+#output { color: #204080; font-size: 15pt; text-align: center; padding: 3px; border: 3px solid #000; }
+#title { font-size: 15pt; font-weight: bold; padding: 3px; }
+#title a { text-decoration: underline; }
+
+#leavegdd { text-align: center; color: #000; padding: 3px 4px; }
+
+#feed { width: 50%; background-color: #CB9; border: 3px solid #204080; }
+
+#msg { font-family: "Lucida Console", monospace; padding: 3px; border: 2px solid #204080; word-break: break-all; }
+
+#footer {
+	color: #000;
+	text-align: center;
+	background-color: #555;
+	height: 64px;
+	width: 1024px;
+}
